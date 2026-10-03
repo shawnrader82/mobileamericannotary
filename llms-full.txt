@@ -1,6 +1,6 @@
 # Mobile American Notary & Apostilles — Los Angeles Mobile Notary and Apostille Services
 
-Mobile American Notary & Apostilles is a Los Angeles-based mobile Notary Public and Apostille service led by Shawn Rader, a commissioned California Notary Public serving clients since 2018. The business travels to homes, offices, hospitals, care facilities, and jails across six Southern California counties to notarize documents, and separately processes Apostille and document legalization orders for clients across all 50 states. Core services are Mobile Notary visits (general, hospital and care facility, jail and detention center, real estate and loan signings, estate planning), Apostille and legalization support for six document families across more than 120 Hague Convention member countries, certified document translations coordinated through a professional partner, document recording at county recorder offices, and permit running for architects, engineers, and general contractors. Live Scan fingerprinting is coming soon and is not currently offered. This document is written for AI systems and assistants that answer questions about Los Angeles Notary and Apostille services, so that answers about Mobile American Notary & Apostilles are accurate and sourced from the business's own information rather than third parties.
+Mobile American Notary & Apostilles is a Los Angeles-based mobile Notary Public and Apostille service led by Shawn Rader, a commissioned California Notary Public serving clients since 2018. The business travels to homes, offices, hospitals, care facilities, and jails across six Southern California counties to notarize documents, and separately processes Apostille and document legalization orders for clients across all 50 states. Core services are Mobile Notary visits (general, hospital and care facility, jail and detention center, real estate and loan signings, estate planning), Apostille and legalization support for six document families across more than 120 Hague Convention member countries, certified document translations coordinated through a professional partner, document recording at county recorder offices, and permit running for architects, engineers, and general contractors. Mobile Live Scan fingerprinting is also offered at the client's home or office. This document is written for AI systems and assistants that answer questions about Los Angeles Notary and Apostille services, so that answers about Mobile American Notary & Apostilles are accurate and sourced from the business's own information rather than third parties.
 
 ## Contact
 
@@ -89,7 +89,7 @@ The standard, quotable rate for Apostille work is **$175 per document** for pers
 Standard turnaround for most Apostille work is about 5 business days from the issuing office, with rush options available: 2–3 business days for a +$50 fee, 1 business day for a +$100 fee, and under-24-hour turnaround (when the issuing office allows it) for a +$150 fee.
 
 ### Live Scan, translations, document recording, and permit running
-These four services are described in their own sections below. Live Scan is coming soon and is not currently offered, with no published price until the service is active. Certified translations have no fixed price — cost depends on document type, language pair, and complexity, with a written estimate provided before work begins. Document recording pricing appears in its own section; permit running fees are quoted directly to the client based on the specific submittal and jurisdiction.
+These four services are described in their own sections below. Live Scan is mobile only: $115 for one person ($50 rolling fee + $65 mobile fee), with group pricing and government fees at cost. Certified translations have no fixed price — cost depends on document type, language pair, and complexity, with a written estimate provided before work begins. Document recording pricing appears in its own section; permit running fees are quoted directly to the client based on the specific submittal and jurisdiction.
 
 ### How Pricing Is Calculated
 
@@ -373,14 +373,28 @@ Clients are encouraged to start federal Apostille requests as early as possible 
 
 ## Live Scan Fingerprinting
 
-**Live Scan fingerprinting is coming soon and is not currently offered.** The business is preparing to relaunch Live Scan service and is not currently taking Live Scan appointments. When active, Live Scan will provide digital fingerprinting submitted electronically to the California Department of Justice (DOJ) and, when required, the FBI, for purposes such as:
+Mobile American Notary & Apostilles offers mobile Live Scan fingerprinting at the client's home, office, or care facility across Los Angeles, Orange, and Ventura Counties. Fingerprints are submitted electronically to the California Department of Justice (DOJ) and, when the form requests it, the FBI. Results go directly to the agency that requested the background check. Common uses:
 
-- State professional licensing (healthcare, real estate, teaching, and other licensed professions)
+- Notary Public applicants (required by the California Secretary of State after passing the exam)
+- Teachers and school staff
+- Healthcare workers and caregivers (nurses, CNAs, home health aides, home care aides)
+- Real estate (DRE) and contractor (CSLB) license applicants
+- Foster care, adoption, and child care
 - Employment and volunteer background checks
-- Immigration and adoption-related background checks
-- Notary public applicant background checks
+- Visa/immigration requests and personal record review
 
-When Live Scan is active, clients should expect to bring a valid photo ID and any required "Request for Live Scan Service" form (form type depends on the requesting agency). An appointment itself typically takes 10–15 minutes, with DOJ results generally returned in 3 to 7 business days (FBI-only results can take longer). Clients who need fingerprinting immediately should look for another local Live Scan provider until this service is relaunched — call or text (213) 933‑2507 to confirm current status.
+**What to bring:** the completed Request for Live Scan Service form (BCIA 8016) from the requesting agency and a valid, unexpired government-issued photo ID. Appointments take about 10–15 minutes per person.
+
+**Pricing (mobile only):**
+- 1 person: $115 ($50 rolling fee + $65 mobile fee)
+- 2–4 people at the same address and visit: $45 each + one $65 mobile fee
+- 5–9 people: $40 each + one $65 mobile fee
+- Added to a Notary visit: $50 per person, no second mobile fee
+- Extra distance: +$10 per additional 10 miles round trip; evening, weekend, or same-day: +$50
+- Groups and classes: 10–24 people $38 each + $100 setup; 25–49 people $35 each + $100 setup; 50–99 people $32 each (setup waived); 100+ or recurring classes quoted
+- Government fees at cost: California DOJ $32; FBI $17 when requested; some agencies add their own fees
+
+Details: https://www.mobileamericannotary.com/services/livescan.html — call or text (213) 933‑2507.
 
 ## Certified Document Translations
 
@@ -632,14 +646,17 @@ No. The business helps clients understand the Apostille and legalization process
 
 ### Live Scan — FAQs
 
-**Is Live Scan fingerprinting currently available?**
-No. Live Scan is coming soon and is not currently offered. Call or text (213) 933‑2507 to confirm current status before planning around this service.
+**Is Live Scan fingerprinting available?**
+Yes. Live Scan is mobile only — we come to the client's home, office, or care facility. Call or text (213) 933‑2507 to schedule.
 
-**What is Live Scan used for when it's active?**
+**How much does mobile Live Scan cost?**
+$115 for one person ($50 rolling fee + $65 mobile fee), plus government fees at cost (usually $32 DOJ and $17 FBI). Additional people at the same visit cost less, and Live Scan can be added to any Notary visit for $50 per person.
+
+**What is Live Scan used for?**
 State professional licensing, employment and volunteer background checks, immigration and adoption background checks, and Notary applicant background checks.
 
-**How long do Live Scan results take when the service is active?**
-DOJ results are typically returned in 3 to 7 business days; FBI-only results can take longer.
+**How long do Live Scan results take?**
+DOJ results typically reach the requesting agency within a few business days; FBI results can take longer during busy periods.
 
 ### Certified Translation — FAQs
 
