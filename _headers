@@ -1,0 +1,6 @@
+# Dev site only: keep the Cloudflare Pages dev copy out of search engines.
+# Host-scoped, so it has no effect on the live GitHub Pages site.
+https://mobile-american-notary.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+https://:branch.mobile-american-notary.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
