@@ -385,6 +385,10 @@ Mobile American Notary & Apostilles offers mobile Live Scan fingerprinting at th
 
 **What to bring:** the completed Request for Live Scan Service form (BCIA 8016) from the requesting agency and a valid, unexpired government-issued photo ID. Appointments take about 10–15 minutes per person.
 
+**IHSS care providers:** We fingerprint IHSS providers at the client's home. Bring both copies of the Request for Live Scan Service form from the IHSS enrollment packet (in Los Angeles County, provided by PASC), a valid California driver license or ID, and a Social Security card. A different form means PASC will not receive the results. One IHSS background check covers every IHSS client; checks done for other jobs do not count. Total for one caregiver: $147 ($115 + $32 state fee). Details: [IHSS Provider Live Scan](https://www.mobileamericannotary.com/services/livescan/ihss-providers.html)
+
+**Notary Public applicants:** Live Scan comes after passing the California Notary exam and must be done within one year of the exam date. Use the Notary version of the Request for Live Scan Service form from the Secretary of State website. A new Live Scan is required for each commission term, including renewals. Total for one applicant: $164 ($115 + $32 DOJ + $17 FBI). Details: [Notary Applicant Live Scan](https://www.mobileamericannotary.com/services/livescan/notary-applicants.html)
+
 **Pricing (mobile only):**
 - 1 person: $115 ($50 rolling fee + $65 mobile fee)
 - 2–4 people at the same address and visit: $45 each + one $65 mobile fee
@@ -1070,6 +1074,8 @@ Key pages on [mobileamericannotary.com](https://www.mobileamericannotary.com):
   - Country pages: Mexico, Philippines, United Kingdom, UAE, Cuba, Thailand
   - Same-Day Apostille Los Angeles page
 - **Live Scan:** [/services/livescan.html](https://www.mobileamericannotary.com/services/livescan.html)
+- **IHSS Provider Live Scan:** [/services/livescan/ihss-providers.html](https://www.mobileamericannotary.com/services/livescan/ihss-providers.html)
+- **Notary Applicant Live Scan:** [/services/livescan/notary-applicants.html](https://www.mobileamericannotary.com/services/livescan/notary-applicants.html)
 - **Certified Translations:** [/services/translations.html](https://www.mobileamericannotary.com/services/translations.html)
 - **Document Recording:** [/services/document-recording.html](https://www.mobileamericannotary.com/services/document-recording.html)
   - Sub-pages for grant deed, quitclaim deed, Affidavit of Death of Joint Tenant, Transfer-on-Death deed, FBN/DBA filing, and certified copies

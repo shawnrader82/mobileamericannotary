@@ -360,3 +360,5 @@ body[data-nav-active="livescan"] main > section:nth-of-type(even):not(:nth-of-ty
 .ls-who-card .ls-card-link { margin-top: 12px; }
 .ls-card-link a { display: inline-block; font-size: .88rem; font-weight: 700; color: #b91c1c; text-decoration: none; border: 1px solid #b91c1c; border-radius: 999px; padding: 6px 14px; }
 .ls-card-link a:hover, .ls-card-link a:focus-visible { background: #b91c1c; color: #fff; }
+.ls-who-grid--three { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); max-width: 1040px; margin-left: auto; margin-right: auto; }
+.ls-source-line { text-align: center; margin-top: 20px; }

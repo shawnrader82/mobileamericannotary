@@ -12,6 +12,8 @@
 - [Mobile Notary Services](https://www.mobileamericannotary.com/services/notary.html)
 - [Apostille & Document Legalization](https://www.mobileamericannotary.com/services/apostille.html)
 - [Live Scan Fingerprinting](https://www.mobileamericannotary.com/services/livescan.html)
+- [IHSS Provider Live Scan](https://www.mobileamericannotary.com/services/livescan/ihss-providers.html)
+- [Notary Applicant Live Scan](https://www.mobileamericannotary.com/services/livescan/notary-applicants.html)
 - [Certified Document Translations](https://www.mobileamericannotary.com/services/translations.html)
 - [Apostille Intake Form](https://www.mobileamericannotary.com/apostille-intake-form.html)
 - [Pricing & Fees](https://www.mobileamericannotary.com/pricing.html)
