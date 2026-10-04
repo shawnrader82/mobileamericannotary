@@ -91,3 +91,12 @@ body.resource-zebra main > section:not(.resource-hero):not(.cta-block):not(.reso
 @media (max-width: 800px) {
   .rp-topics, .rp-faq__grid, .rp-split, .rp-example { grid-template-columns: 1fr; }
 }
+
+/* ---- Slim next-step strip (replaces boxed CTAs; footer carries call/book) ---- */
+.rp-next { padding-block: 2.5rem; }
+.rp-next__card { max-width: 1080px; margin: 0 auto; background: #fff; border: 1px solid #e2e8f0; border-left: 4px solid #b91c1c; border-radius: 12px; padding: 1.25rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1.25rem; box-shadow: 0 1px 2px rgba(15,23,42,.04); }
+.rp-next__card h2 { font-size: 1.15rem; line-height: 1.3; color: #0f172a; margin: 0 0 .25rem; }
+.rp-next__card p { margin: 0; font-size: .95rem; line-height: 1.55; color: #475569; }
+.rp-next__link { flex: 0 0 auto; display: inline-flex; align-items: center; gap: .4rem; padding: .7rem 1.15rem; border-radius: 8px; background: #0f172a; color: #fff !important; font-weight: 600; font-size: .95rem; text-decoration: none; white-space: nowrap; transition: background .15s ease; }
+.rp-next__link:hover { background: #1e293b; }
+@media (max-width: 700px) { .rp-next__card { flex-direction: column; align-items: flex-start; } }
