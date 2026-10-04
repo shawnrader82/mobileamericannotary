@@ -1,0 +1,57 @@
+/* ========== RESOURCE PAGES: PHOTO HERO + ZEBRA ==========
+   Shared by /resources/* sub-pages and /forms/.
+   Usage:
+     <body class="resource-zebra">
+     <section class="resource-hero resource-hero--image" style="--hero-img:url('/assets/images/resources/x-hero.webp')">
+   Full-bleed backgrounds are painted with box-shadow + clip-path, so they
+   span the viewport without changing any section's content width. */
+
+html, body { overflow-x: clip; }
+body.resource-zebra main.page-shell { overflow-x: visible !important; }
+
+/* ---- Photo hero ---- */
+.resource-hero.resource-hero--image {
+  position: relative; isolation: isolate;
+  background: transparent !important; border-bottom: 0 !important;
+  padding-top: clamp(3.5rem, 7vw, 5.5rem) !important;
+  padding-bottom: clamp(3rem, 6vw, 4.5rem) !important;
+  color: #fff; margin-bottom: 0 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+.resource-hero--image::before {
+  content: ""; position: absolute; z-index: -1; top: 0; bottom: 0;
+  left: 50%; width: 100vw; transform: translateX(-50%);
+  background:
+    linear-gradient(180deg, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.66) 55%, rgba(15,23,42,0.82) 100%),
+    var(--hero-img) center / cover no-repeat;
+  background-color: #0f172a;
+}
+.resource-hero--image .resource-hero__eyebrow,
+.resource-hero--image .service-detail-kicker { color: #f3c969 !important; }
+.resource-hero--image h1,
+.resource-hero--image .resource-hero__title { color: #fff !important; }
+.resource-hero--image p,
+.resource-hero--image .resource-hero__lede,
+.resource-hero--image .resource-hero__updated { color: rgba(255,255,255,0.86) !important; }
+.resource-hero--image a { color: #fff !important; text-decoration: underline; text-underline-offset: 2px; }
+.resource-hero--image .resource-stat {
+  background: rgba(255,255,255,0.08) !important;
+  border: 1px solid rgba(255,255,255,0.22) !important;
+  backdrop-filter: blur(4px);
+}
+.resource-hero--image .resource-stat__num { color: #fff !important; }
+.resource-hero--image .resource-stat__label { color: rgba(255,255,255,0.78) !important; }
+
+/* ---- Zebra: alternate full-bleed bands after the hero ---- */
+body.resource-zebra main > section:not(.resource-hero):not(.cta-block):not(.resource-cta) {
+  --zb: #ffffff;
+  background-color: var(--zb) !important;
+  box-shadow: 0 0 0 100vmax var(--zb);
+  clip-path: inset(0 -100vmax);
+  margin-top: 0 !important; margin-bottom: 0 !important;
+  padding-top: clamp(2.25rem, 4vw, 3rem) !important;
+  padding-bottom: clamp(2.25rem, 4vw, 3rem) !important;
+}
+body.resource-zebra main > section:not(.resource-hero):not(.cta-block):not(.resource-cta):nth-of-type(even) {
+  --zb: #f4f7fb;
+}
