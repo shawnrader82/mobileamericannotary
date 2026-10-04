@@ -105,8 +105,18 @@
         </div>
       </div>
 
-      <!-- Live Scan (no dropdown) -->
-      <a href="/services/livescan.html" class="home-header__nav-link" data-nav="livescan">Live Scan</a>
+      <!-- Live Scan ▾ -->
+      <div class="home-header__nav-item home-header__nav-item--has-dropdown" data-nav="livescan">
+        <a href="/services/livescan.html" class="home-header__nav-link" data-nav="livescan" aria-haspopup="true" aria-expanded="false">
+          Live Scan
+          <svg class="home-header__nav-caret" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <div class="home-header__dropdown" role="menu" aria-label="Live Scan services">
+          <a href="/services/livescan.html" role="menuitem">All Live Scan</a>
+          <a href="/services/livescan/ihss-providers.html" role="menuitem">IHSS Caregivers</a>
+          <a href="/services/livescan/notary-applicants.html" role="menuitem">Notary Applicants</a>
+        </div>
+      </div>
 
       <!-- Resources ▾ (forms library, blog, FAQ, pricing) -->
       <div class="home-header__nav-item home-header__nav-item--has-dropdown" data-nav="resources">
@@ -239,7 +249,20 @@
       </div>
     </div>
 
-    <a href="/services/livescan.html" data-nav="livescan">Live Scan</a>
+    <!-- Live Scan group -->
+    <div class="home-mobile-menu__group" data-collapsible>
+      <div class="home-mobile-menu__parent-row">
+        <a href="/services/livescan.html" class="home-mobile-menu__parent" data-nav="livescan">Live Scan</a>
+        <button type="button" class="home-mobile-menu__toggle" aria-expanded="false" aria-label="Toggle Live Scan submenu">
+          <svg class="home-mobile-menu__chevron" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div class="home-mobile-menu__children">
+        <a href="/services/livescan.html" class="home-mobile-menu__child" data-nav="livescan">All Live Scan</a>
+        <a href="/services/livescan/ihss-providers.html" class="home-mobile-menu__child" data-nav="livescan">IHSS Caregivers</a>
+        <a href="/services/livescan/notary-applicants.html" class="home-mobile-menu__child" data-nav="livescan">Notary Applicants</a>
+      </div>
+    </div>
 
     <!-- Resources group -->
     <div class="home-mobile-menu__group" data-collapsible>
