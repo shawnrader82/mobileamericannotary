@@ -278,7 +278,7 @@
             <span class="home-trust-ribbon__star">★</span>
           </span>
         </div>
-        <strong>150+ Google Reviews</strong>
+        <strong>180+ Google Reviews</strong>
         <span>Rated 5.0 by clients across Los Angeles and nearby counties.</span>
       </div>
 
@@ -745,7 +745,7 @@
           careful coordination, and mobile service that shows up prepared.
         </p>
         <p class="home-reviews__rating">
-          Rated 5.0 on Google based on 150+ client reviews.
+          Rated 5.0 on Google based on 180+ client reviews.
         </p>
       </div>
 
