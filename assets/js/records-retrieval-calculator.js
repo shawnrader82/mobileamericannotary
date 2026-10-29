@@ -31,7 +31,7 @@
   var COUNTIES = {
     la: {
       name: 'LA County',
-      tripFee: 150,
+      tripFee: 175,
       certMode: 'integrated',
       firstPage: 5,
       addlPage: 3,
@@ -48,7 +48,7 @@
     },
     oc: {
       name: 'Orange County',
-      tripFee: 200,
+      tripFee: 225,
       certMode: 'separate',
       firstPage: 1,
       addlPage: 1,
@@ -61,7 +61,7 @@
     },
     ventura: {
       name: 'Ventura County',
-      tripFee: 175,
+      tripFee: 200,
       certMode: 'separate',
       firstPage: 2,
       addlPage: 1,
@@ -73,8 +73,6 @@
       sameDayFrom: null
     }
   };
-
-  var EXTRA_DOC_SERVICE_FEE = 25;
 
   function fmt(n) {
     return '$' + n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
@@ -93,15 +91,6 @@
 
     serviceLines.push({ label: c.name + ' recorder trip fee (in person)', amount: c.tripFee });
     serviceTotal += c.tripFee;
-
-    if (docs > 1) {
-      var extra = (docs - 1) * EXTRA_DOC_SERVICE_FEE;
-      serviceLines.push({
-        label: 'Additional documents on same trip (' + (docs - 1) + ' × ' + fmt(EXTRA_DOC_SERVICE_FEE) + ')',
-        amount: extra
-      });
-      serviceTotal += extra;
-    }
 
     /* ── Group B: county pass-through ──────────────────────────────────── */
     var countyLines = [];
