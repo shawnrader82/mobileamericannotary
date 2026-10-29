@@ -10,7 +10,7 @@
   var FEE_SCHEDULE = {
     la: {
       name: 'LA County',
-      tripFee: 150,
+      tripFee: 175,
       firstPage: 15,
       addlPage: 3,
       sb2: 75,
@@ -34,7 +34,7 @@
     },
     oc: {
       name: 'Orange County',
-      tripFee: 200,
+      tripFee: 225,
       firstPage: 12,
       addlPage: 3,
       sb2: 75,
@@ -52,7 +52,7 @@
     },
     ventura: {
       name: 'Ventura County',
-      tripFee: 175,
+      tripFee: 200,
       firstPage: 14,
       addlPage: 3,
       sb2: 75,
@@ -159,11 +159,6 @@
     serviceLines.push({ label: fs.name + ' mobile trip fee', amount: fs.tripFee });
     serviceTotal += fs.tripFee;
 
-    if (extraDocs > 0) {
-      var extraCost = extraDocs * 25;
-      serviceLines.push({ label: 'Extra documents (' + extraDocs + ' × $25)', amount: extraCost });
-      serviceTotal += extraCost;
-    }
 
     /* ── Group B: Government pass-through fees (paid to the county) ────── */
     var county = calcCountyFee(countyKey, category, pages, extraFbnNames, docValue);
