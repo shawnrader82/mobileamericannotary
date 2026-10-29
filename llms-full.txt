@@ -431,11 +431,11 @@ Mobile American Notary & Apostilles files documents directly with county clerk-r
 **Counties and offices served:**
 | County | Trip fee | Recorder offices |
 |---|---|---|
-| Los Angeles County | $150 | Norwalk (main office), Beverly Hills, Van Nuys, LAX-corridor, and Lancaster branch offices |
-| Orange County | $200 | Santa Ana main recorder office plus 3 branch locations |
-| Ventura County | $175 | Ventura County Clerk-Recorder main office |
+| Los Angeles County | $175 | Norwalk (main office), Beverly Hills, Van Nuys, LAX-corridor, and Lancaster branch offices |
+| Orange County | $225 | Santa Ana main recorder office plus 3 branch locations |
+| Ventura County | $200 | Ventura County Clerk-Recorder main office |
 
-**Additional recording costs (pass-through, paid to the county at cost):** These vary by document and county, but typically include a per-page recording fee (roughly $15 for the first page, about $3 per additional page), a $75 California SB2 Building Homes and Jobs Act fee per title recorded (capped at $225 per transaction, with exemptions for most primary-residence purchase transactions), a $10 Real Estate Fraud Prevention fee, and a $2 AB 1466 Restrictive Covenant fee where applicable. A live fee calculator on the website's document recording page gives an itemized, document-specific estimate. Each additional document recorded in the same visit is an additional $25.
+**Additional recording costs (pass-through, paid to the county at cost):** These vary by document and county, but typically include a per-page recording fee (roughly $15 for the first page, about $3 per additional page), a $75 California SB2 Building Homes and Jobs Act fee per title recorded (capped at $225 per transaction, with exemptions for most primary-residence purchase transactions), a $10 Real Estate Fraud Prevention fee, and a $2 AB 1466 Restrictive Covenant fee where applicable. A live fee calculator on the website's document recording page gives an itemized, document-specific estimate. One flat trip fee covers any number of documents recorded on the same visit — no per-document surcharge.
 
 **Process:**
 1. **Intake** — the client drops off a notarized document, has it picked up, or shares a pre-signed package; the document is checked against the recorder's formatting requirements before the trip.
@@ -467,9 +467,9 @@ Mobile American Notary & Apostilles offers a permit running service for architec
 
 **Pricing:** Permit running fees are priced by county to reflect travel distance from the Granada Hills base:
 
-- **Los Angeles County:** $150 per submittal (LADBS Metro, Van Nuys, West LA, San Pedro, and other LA County jurisdictions)
-- **Ventura County:** $175 per submittal
-- **Orange County:** $200 per submittal
+- **Los Angeles County:** $175 per submittal (LADBS Metro, Van Nuys, West LA, San Pedro, and other LA County jurisdictions)
+- **Ventura County:** $200 per submittal
+- **Orange County:** $225 per submittal
 
 Government filing fees, plan check fees, and any jurisdiction-specific processing charges are separate pass-through costs paid to the jurisdiction at cost — the fee above covers the runner's time, travel, wait, and confirmation of submittal acceptance. Complex multi-counter submittals or unusually long wait windows may be quoted separately by calling or texting (213) 933‑2507 in advance of the visit.
 
