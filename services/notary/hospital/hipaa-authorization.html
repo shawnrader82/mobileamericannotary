@@ -39,100 +39,132 @@
 
   <!-- JSON-LD: Service -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "HIPAA Authorization Notary",
-    "serviceType": "Mobile Notary Service",
-    "url": "https://www.mobileamericannotary.com/services/notary/hospital/hipaa-authorization.html",
-    "description": "Bedside notarization of HIPAA Authorization forms at California hospitals — authorizing designated family members or caregivers to receive protected health information. Not legally required to be notarized in California but frequently requested by patients for chain-of-custody confidence.",
-    "provider": {
-      "@type": "NotaryPublic",
-      "name": "Mobile American Notary & Apostilles",
-      "url": "https://www.mobileamericannotary.com/",
-      "telephone": "+1-213-933-2507",
-      "email": "info@mobileamericannotary.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "10718 White Oak Ave Suite 5",
-        "addressLocality": "Granada Hills",
-        "addressRegion": "CA",
-        "postalCode": "91344",
-        "addressCountry": "US"
-      }
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "HIPAA Authorization Notary",
+  "serviceType": "Mobile Notary Service",
+  "url": "https://www.mobileamericannotary.com/services/notary/hospital/hipaa-authorization.html",
+  "description": "Bedside notarization of HIPAA Authorization forms at California hospitals — authorizing designated family members or caregivers to receive protected health information. Not legally required to be notarized in California but frequently requested by patients for chain-of-custody confidence.",
+  "provider": {
+    "@type": "NotaryPublic",
+    "name": "Mobile American Notary & Apostilles",
+    "url": "https://www.mobileamericannotary.com/",
+    "telephone": "+1-213-933-2507",
+    "email": "info@mobileamericannotary.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "10718 White Oak Ave Suite 5",
+      "addressLocality": "Granada Hills",
+      "addressRegion": "CA",
+      "postalCode": "91344",
+      "addressCountry": "US"
+    }
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Los Angeles County"
     },
-    "areaServed": [
-      { "@type": "AdministrativeArea", "name": "Los Angeles County" },
-      { "@type": "AdministrativeArea", "name": "Ventura County" }
-    ]
-  }
-  </script>
+    {
+      "@type": "AdministrativeArea",
+      "name": "Ventura County"
+    }
+  ],
+  "dateModified": "2026-10-07",
+  "datePublished": "2026-02-07"
+}
+</script>
 
   <!-- JSON-LD: Breadcrumb -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mobileamericannotary.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.mobileamericannotary.com/services/notary.html" },
-      { "@type": "ListItem", "position": 3, "name": "Hospital Bedside Notary", "item": "https://www.mobileamericannotary.com/services/notary/hospital.html" },
-      { "@type": "ListItem", "position": 4, "name": "HIPAA Authorization Notary", "item": "https://www.mobileamericannotary.com/services/notary/hospital/hipaa-authorization.html" }
-    ]
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.mobileamericannotary.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.mobileamericannotary.com/services/notary.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hospital Bedside Notary",
+      "item": "https://www.mobileamericannotary.com/services/notary/hospital.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "HIPAA Authorization Notary",
+      "item": "https://www.mobileamericannotary.com/services/notary/hospital/hipaa-authorization.html"
+    }
+  ],
+  "dateModified": "2026-10-07",
+  "datePublished": "2026-02-07"
+}
+</script>
 
   <!-- JSON-LD: FAQ -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "@id": "https://www.mobileamericannotary.com/services/notary/hospital/hipaa-authorization.html#faqpage",
-    "inLanguage": "en",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Does a HIPAA Authorization need to be notarized?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Under federal HIPAA regulations, a valid authorization for releasing protected health information (PHI) does not require notarization. The authorization must be written, signed by the patient or their personal representative, and contain specific required elements — but notarization is not one of them. However, many patients, insurance companies, healthcare institutions, and attorneys request notarized HIPAA authorizations for chain-of-custody confidence, legal disputes, or institutional policy reasons."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What must a HIPAA Authorization include to be valid?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A valid HIPAA authorization must include: (1) a description of the PHI to be disclosed, (2) the name or class of persons authorized to make the disclosure, (3) the name or class of persons to whom the disclosure may be made, (4) an expiration date or event, (5) a statement that the patient has the right to revoke the authorization, (6) a statement that treatment is not conditioned on signing, (7) the patient's signature and date. Many hospital forms include all of these — the notary simply witnesses and certifies the signature."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why would someone want a HIPAA Authorization notarized if not required?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Common reasons include: the patient wants a formal record that the authorization was signed voluntarily and with full awareness; the authorization will be used in legal or estate proceedings where document authenticity may be questioned; an insurance company, law office, or out-of-state provider requests a notarized copy; or family members are in conflict about who should have access to medical information and the patient wants indisputable evidence of their intent."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can a HIPAA Authorization be notarized at the hospital?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. We travel to hospital rooms, ICUs, nursing homes, and care facilities across Los Angeles and Ventura County to notarize HIPAA authorizations alongside other documents. Patients often sign a HIPAA authorization at the same visit as an Advance Healthcare Directive or Healthcare Power of Attorney."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is a HIPAA Authorization the same as a Healthcare Power of Attorney?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. A Healthcare Power of Attorney (AHCD Part 1 in California) designates an agent to make medical decisions when the patient cannot. A HIPAA Authorization allows designated individuals to receive information about the patient's medical condition — it does not grant any decision-making authority. A patient who is fully competent may want a HIPAA authorization so family members can discuss the patient's condition with providers, while also wanting an AHCD in case they lose capacity."
-        }
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.mobileamericannotary.com/services/notary/hospital/hipaa-authorization.html#faqpage",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does a HIPAA Authorization need to be notarized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under federal HIPAA regulations, a valid authorization for releasing protected health information (PHI) does not require notarization. The authorization must be written, signed by the patient or their personal representative, and contain specific required elements — but notarization is not one of them. However, many patients, insurance companies, healthcare institutions, and attorneys request notarized HIPAA authorizations for chain-of-custody confidence, legal disputes, or institutional policy reasons."
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "Question",
+      "name": "What must a HIPAA Authorization include to be valid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A valid HIPAA authorization must include: (1) a description of the PHI to be disclosed, (2) the name or class of persons authorized to make the disclosure, (3) the name or class of persons to whom the disclosure may be made, (4) an expiration date or event, (5) a statement that the patient has the right to revoke the authorization, (6) a statement that treatment is not conditioned on signing, (7) the patient's signature and date. Many hospital forms include all of these — the notary simply witnesses and certifies the signature."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why would someone want a HIPAA Authorization notarized if not required?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common reasons include: the patient wants a formal record that the authorization was signed voluntarily and with full awareness; the authorization will be used in legal or estate proceedings where document authenticity may be questioned; an insurance company, law office, or out-of-state provider requests a notarized copy; or family members are in conflict about who should have access to medical information and the patient wants indisputable evidence of their intent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a HIPAA Authorization be notarized at the hospital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We travel to hospital rooms, ICUs, nursing homes, and care facilities across Los Angeles and Ventura County to notarize HIPAA authorizations alongside other documents. Patients often sign a HIPAA authorization at the same visit as an Advance Healthcare Directive or Healthcare Power of Attorney."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a HIPAA Authorization the same as a Healthcare Power of Attorney?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A Healthcare Power of Attorney (AHCD Part 1 in California) designates an agent to make medical decisions when the patient cannot. A HIPAA Authorization allows designated individuals to receive information about the patient's medical condition — it does not grant any decision-making authority. A patient who is fully competent may want a HIPAA authorization so family members can discuss the patient's condition with providers, while also wanting an AHCD in case they lose capacity."
+      }
+    }
+  ],
+  "dateModified": "2026-10-07",
+  "datePublished": "2026-02-07"
+}
+</script>
 
   <!-- ========== CSS ========== -->
   <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -156,29 +188,31 @@
 
   <!-- ========== REVIEW STRUCTURED DATA (TIER 1 — full reviews + aggregate) ========== -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://www.mobileamericannotary.com/#business",
-    "name": "Mobile American Notary & Apostilles",
-    "url": "https://www.mobileamericannotary.com/",
-    "image": "https://www.mobileamericannotary.com/assets/images/brandlogo.webp",
-    "telephone": "+1-213-933-2507",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "10718 White Oak Ave Suite 5",
-      "addressLocality": "Granada Hills",
-      "addressRegion": "CA",
-      "postalCode": "91344",
-      "addressCountry": "US"
-    },
-    "sameAs": [
-      "https://g.page/r/CZQcr6e0ew40EAE/review",
-      "https://maps.app.goo.gl/Qse6Vm5GTJGbdMcs5"
-    ]
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.mobileamericannotary.com/#business",
+  "name": "Mobile American Notary & Apostilles",
+  "url": "https://www.mobileamericannotary.com/",
+  "image": "https://www.mobileamericannotary.com/assets/images/brandlogo.webp",
+  "telephone": "+1-213-933-2507",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10718 White Oak Ave Suite 5",
+    "addressLocality": "Granada Hills",
+    "addressRegion": "CA",
+    "postalCode": "91344",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://g.page/r/CZQcr6e0ew40EAE/review",
+    "https://maps.app.goo.gl/Qse6Vm5GTJGbdMcs5"
+  ],
+  "dateModified": "2026-10-07",
+  "datePublished": "2026-02-07"
+}
+</script>
   <!-- ========== /REVIEW STRUCTURED DATA (TIER 1) ========== -->
 
 </head>
