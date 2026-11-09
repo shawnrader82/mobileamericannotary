@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /ops
 Disallow: /ops/
+Disallow: /blog/services/translations.html
+Disallow: /assets/documents/forms/
 
 Sitemap: https://www.mobileamericannotary.com/sitemap.xml
