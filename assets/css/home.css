@@ -679,6 +679,19 @@
   background: #111b2e;
 }
 
+.service-lane__actions--split3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.service-lane__split-button--mid {
+  border-right: 1px solid rgba(255, 255, 255, 0.14);
+  background: #151f30;
+}
+
+.service-lane__split-button--mid:hover {
+  background: #1b2436;
+}
+
 /* SERVICE CARDS RESPONSIVE */
 
 @media (max-width: 720px) {

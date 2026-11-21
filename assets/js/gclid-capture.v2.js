@@ -16,7 +16,7 @@
   var COOKIE_NAME = 'mna_ads';
   var COOKIE_DAYS = 90;
   var N8N_CAPTURE_URL = 'https://n8n.mobileamericannotary.com/webhook/ad-click-capture';
-  var SQUARE_DOMAIN = 'mobile-american.caselane.io';
+  var SQUARE_DOMAIN = 'caselane.io';
 
   function getParam(name) {
     var m = new RegExp('[?&]' + name + '=([^&]+)').exec(window.location.search);
