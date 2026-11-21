@@ -7,7 +7,7 @@
  *  3. When user submits any contact form (with email field), POSTs
  *     {email, gclid, gbraid, wbraid, utm_*, client_id} to the n8n endpoint
  *     /webhook/ad-click-capture for ad_clicks table stitching.
- *  4. Auto-appends gclid + UTMs to all outbound links to book.squareup.com so
+ *  4. Auto-appends gclid + UTMs to all outbound links to mobile-american.caselane.io so
  *     Square sees the click params in order metadata.
  *  5. Fires a GA4 'phone_click' dataLayer event on every tel: link click,
  *     enriched with current stored gclid for call attribution.
@@ -16,7 +16,7 @@
   var COOKIE_NAME = 'mna_ads';
   var COOKIE_DAYS = 90;
   var N8N_CAPTURE_URL = 'https://n8n.mobileamericannotary.com/webhook/ad-click-capture';
-  var SQUARE_DOMAIN = 'book.squareup.com';
+  var SQUARE_DOMAIN = 'mobile-american.caselane.io';
 
   function getParam(name) {
     var m = new RegExp('[?&]' + name + '=([^&]+)').exec(window.location.search);
@@ -66,7 +66,7 @@
     try { localStorage.setItem(COOKIE_NAME, JSON.stringify(merged)); } catch (e) {}
   }
 
-  // 2) Append gclid to all book.squareup.com links so it survives the click
+  // 2) Append gclid to all mobile-american.caselane.io links so it survives the click
   function decorateSquareLinks() {
     var ads;
     try { ads = JSON.parse(getCookie(COOKIE_NAME) || '{}'); } catch (e) { return; }
